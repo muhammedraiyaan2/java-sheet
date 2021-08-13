@@ -1,0 +1,26 @@
+.container{
+    height: 10px;
+    width: 70%;
+    margin: auto;
+}
+.heading{
+    background: #000;
+    width: 100%;
+    color: white;
+}
+.content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+margin-left: 30%;
+   text-align: center;
+}
+.head{
+    font-family: 'Hind', sans-serif;
+    margin-left: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

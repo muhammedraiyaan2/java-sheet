@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java cheatsheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="content">
+            <i class="fas fa-file-spreadsheet fa-3x"></i>
+            <H1 class="head">Welcome to the Java cheatsheet</H1>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <h3>Basic Java Code</h3>
+        <pre class="language-java"><code>class Main{ 
+public static void main(String args[]){ 
+System.out.println("Testing"); 
+} 
+}</code></pre>
+        <h3>String Input</h3>
+        <pre class="language-java"><code>import java.util.Scanner;
+Scanner input1=new Scanner(System.in);
+String input2=input1.nextLine();</code></pre>
+        <h3>Int Input</h3>
+        <pre class="language-java"><code>import java.util.Scanner;
+Scanner input1=new Scanner(System.in);
+int input2=input1.nextInt();</code>
+</pre>
+        <h3>Float Input</h3>
+        <pre class="language-java"><code>import java.util.Scanner;
+Scanner input1=new Scanner(System.in);
+double input2=input1.nextInt();</code>
+</pre>
+        <h3>Random Number</h3>
+        <pre class="language-java"><code>import java.lang.Math;
+System.out.println("Random Number: " + Math.random());</code>
+</pre>
+        <h3>Random Number With Range</h3>
+        <pre class="language-java"><code>import java.util.Random;
+Random rand = new Random();
+int range = 6;
+int random = rand.nextInt(range); 
+System.out.println(random);</code>
+</pre>
+<h3>Function</h3>
+<pre class="language-java"><code>static void print(String p){
+System.out.println(p);
+}</code>
+</pre>
+<h3>Print Line</h3>
+<pre class="language-java"><code>System.out.println("Testing");</code>
+</pre>
+<h3>Print</h3>
+<pre class="language-java"><code>System.out.print("Testing");</code>
+</pre>
+<h3>String Variable</h3>
+<pre class="language-java"><code>String str="String";</code>
+</pre>
+<h3>Int Variable</h3>
+<pre class="language-java"><code>int number=43;</code>
+</pre>
+<h3>Float Variable</h3>
+<pre class="language-java"><code>double decimal=23.5;</code>
+</pre>
+    </div>
+    <script src="prism.js"></script>
+</body>
+</html>
